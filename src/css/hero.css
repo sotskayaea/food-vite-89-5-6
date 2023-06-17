@@ -1,0 +1,43 @@
+.wrap{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.foto-wrap {
+  position: relative;
+  border-radius: 15px;
+  width: 600px;
+  height: 400px;
+}
+
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-play {
+  width: 44px;
+  height: 44px;
+  fill: #fff;
+}
+.iframe{
+    display: none;
+    border-radius: 15px;
+}
+
+.text{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+}
