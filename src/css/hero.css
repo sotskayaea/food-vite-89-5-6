@@ -10,7 +10,24 @@
   width: 600px;
   height: 400px;
 }
-
+@media screen and (max-width: 768px) {
+  .foto-wrap {
+  width: 335px;
+  height: 500px;
+} 
+}
+.foto{
+  width: 600px;
+  height: 400px;
+}
+@media screen and (max-width: 768px) {
+  .foto{
+  width: 335px;
+  height: 500px;
+  object-fit: cover;
+}
+  
+}
 .play-btn {
   position: absolute;
   top: 50%;
@@ -32,6 +49,17 @@
 .iframe{
     display: none;
     border-radius: 15px;
+    width: 600px;
+    height: 400px
+}
+
+@media screen and (max-width: 768px) {
+  .iframe{
+    
+    width: 335px;
+    height: 500px
+}
+  
 }
 
 .text{
